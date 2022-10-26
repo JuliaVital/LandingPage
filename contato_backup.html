@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/Style.css">
+    <link rel="shortcut icon" hreaf="./img">
+    <title>Sabor Saudável | Receitas </title>
+</head>
+<body>
+    <!--Aula 27/09/2022-->
+    <!--Inicio do Menu Responsivo-->
+<header id="header">
+    <a id="logo" href="index.html"><img src="./img/masterchef1.png" alt="Logo Sabor Saudável"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="comidas.html">Comidinhas</a></li>
+                <li><a class="linkMenu" href="bebidas.html">Bebidas</a></li>
+                <li><a class="linkMenu" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+</header>
+     <!---fim do menu responsivo-->
+
+    <!---Inicio Área Form Contato-->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!---Inicio da tag section com texto de contato-->
+                <section class="col-12">
+                    <h2>Entre em contato conosco!!</h2>
+                    <p>Para dúvidas, elogios e reclamações.</p>
+                </section>
+                <!--Fim da tag section com o texto de contato-->
+
+                <!--Inicio formulario-->
+                <div class="col-md-4">
+                    <div class="form_main">
+                        <h4 class="heading"><strong>Contato</strong>Expresso<span></span></h4>
+                        <div class="form">
+                            <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                <input type="text" required="" placeholder="Por favor, insira o nome completo" value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu telefone" value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu email" value="" name="name" class="txt">
+                                
+                                <textarea placeholder="Insira sua mensagem" name="mess" type="text" class="text_3" class="text_3"></textarea>
+                                <input type="submit" value="submit" name="submit" class="txt2">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do formulário-->
+         
+                    <!-- início footer -->
+                <footer class="rodape">
+                    <div class="container">
+                        <div class="row m-0">
+                            <!-- início da logomarca -->
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="./img/senai_small.jpg" alt="logo-rodape" width="40%">
+                                </figure>
+                            </div>
+                            <!-- fim da logomarcar -->
+                            <!-- início do texto rodape -->
+                            <div class="col-md-4">
+                                <div class="info-contato">
+                                    <p>email:</p>
+                                    <p><a href="mailto:example@corp.net">example@corp.net</a></p><br>
+                                    <p>Endereço:</p>
+                                    <p>Avenida do Prado, 123</p><br>
+                                    <p>Telefone:</p>
+                                    <p>+55 (11) 98888-1234</p>
+                                </div>
+                            </div>
+                            <!-- fim do texto -->
+                            <!-- início das mídias sociais -->
+                            <div class="col-md-4">
+                                <figure class="redes-sociais">
+                                    <a href="https://facebook.com"><img src="./img/face.png"></a>
+                                    <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                    <a href="https://youtube.com"><img src="./img/youtube.png"></a>
+                                    <a href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                                </figure>
+                                <br>
+                                <!-- Repetir opções do menu do Site -->
+                                <a href="index.html">Home</a><br>
+                                <a href="#">Jogos</a><br>
+                                <a href="#">Produtos</a><br>
+                                <a href="#">Contato</a><br>
+                            </div>
+                            <!-- fim das mídias sociais -->
+                            <div class="col-12">
+                                <p class="direitos">Direitos Autorais</p>
+                            </div>
+                            <!-- fim direitos autorais -->
+                        </div>
+                    </div>
+                </footer>
+                <!-- fim texto galeria -->
+           </div>
+        </div>
+    </div>
+</body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./js/script_menu.js"></script>
+
+</html>
+
