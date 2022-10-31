@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     margin: 0;
@@ -19,8 +19,8 @@ body {
 header {
     z-index: 1;
     background-color: #F9003D;
-    height: 100%;
-    align-items: center
+    height: 80px;
+    width: 100vw;
 }
 
 .conteudo-header {
@@ -67,7 +67,7 @@ header {
 }
 
 .botao {
-    background-color: #a259f7;
+    background-color: #A259F7;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -75,7 +75,6 @@ header {
     font-size: 1.5em !important;
     border: solid 1px #080324;
 }
-
 .botao:hover {
     font-size: 1.6em !important;
     height: 50px;
@@ -87,7 +86,6 @@ header {
 
 .menu-barras {
     display: none;
-
 }
 
 .banner {
@@ -117,10 +115,10 @@ h1 {
 }
 
 .linha-amarela {
-    border: solid 1px #ffaf00;
+    border: solid 1px #FFAF00;
 }
 
-.linha-senai {
+.titulo-senai {
     font-family: 'Courier New', Courier, monospace;
     color: #F9003D;
     font-size: 50px;
@@ -167,13 +165,13 @@ h1 {
 }
 
 .conteudo-sobre h3 {
-    color: #ffaf00;
+    color: #FFAF00;
     font-size: 45px;
     font-weight: 500;
 }
 
 .texto-sobre p {
-    color: #FFFFFf;
+    color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
@@ -198,15 +196,15 @@ h1 {
 }
 
 .card-info h3 {
-    color: #FFFFFf;
+    color: #FFFFFF;
     font-size: 20px;
 }
 
 .card-info p {
-    color: #a259f7;
+    color: #A259F7;
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #a259f7;
+    border: solid 2px #A259F7;
     width: 250px;
     padding: 30px 0;
     text-align: center;
@@ -224,25 +222,24 @@ h1 {
 }
 
 .conteudo-endereco h2 {
-    color: #ffaf00;
+    color: #FFAF00;
     font-size: 50px;
     font-weight: 500;
 }
 
 .texto-endereco {
-    color: #a259f7;
+    color: #A259F7;
     font-family: 'Courier New', Courier, monospace;
     background-color: #010010;
-    border: solid 2px #a259f7;
+    border: solid 2px #A259F7;
     padding: 55px 55px;
 }
 
 .texto-endereco p {
-    width: 400px;
+    width: auto;
     font-size: 20px;
 }
-
-.container-map {
+.container-mapa {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -261,11 +258,19 @@ h1 {
 }
 
 .container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30%;
+}
+
+.video-responsivo {
     position: absolute;
     margin-top: 10px;
     top: 0;
     left: 0;
     bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
 }
@@ -276,7 +281,6 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 
@@ -287,7 +291,7 @@ footer span {
 }
 
 @media screen and (max-width: 1200px) {
-    .menu-header{
+    .menu-header {
         width: 60%;
     }
 
@@ -297,10 +301,6 @@ footer span {
     }
 
     .imagem-sobre {
-        width: 80%;
-    }
-
-    .texto-sobre {
         width: 80%;
     }
 
@@ -333,7 +333,7 @@ footer span {
         width: 100%;
     }
 
-    .container-map {
+    .container-mapa {
         position: relative;
         overflow: hidden;
         width: 100%;
@@ -341,7 +341,7 @@ footer span {
     }
 
     .mapa-responsivo {
-        position: relative;
+        position: absolute;
         margin-top: 10px;
         top: 0;
         left: 0;
@@ -369,5 +369,3 @@ footer span {
         height: 100%;
     }
 }
-
-
